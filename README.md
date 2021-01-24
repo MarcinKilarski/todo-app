@@ -1,6 +1,6 @@
 # Todo App
 
-![alt text][./screenshot.png]
+![Preview of the todo app](/screenshot.png)
 
 ## Instructions
 
