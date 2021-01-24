@@ -1,4 +1,6 @@
-# Instructions
+# Todo App
+
+## Instructions
 
 1. Open a terminal on your compute
 2. Make sure that you are using Node 12+ by running command 'node -v'
