@@ -1,5 +1,7 @@
 # Todo App
 
+![alt text][./screenshot.png]
+
 ## Instructions
 
 1. Open a terminal on your compute
