@@ -1,0 +1,38 @@
+:root {
+    --color-one: #8e20ee;
+    --color-one-dark: #771bc7;
+    --color-two: #32cd32;
+    --color-two-dark: #2aaf2a;
+    --color-three: #aaa;
+}
+
+:focus {
+    outline: none !important;
+}
+
+body {
+    background: var(--color-one);
+    margin: 20px;
+}
+
+.app {
+    background: #efefef;
+    border-radius: 4px;
+    max-width: 480px;
+    padding: 24px;
+    margin: auto;
+}
+
+.heading {
+    margin: 0 0 16px;
+}
+
+@media screen and (min-width: 767px) {
+    body {
+        margin: 32px 24px;
+    }
+
+    .app {
+        padding: 32px;
+    }
+}

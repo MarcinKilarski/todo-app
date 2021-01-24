@@ -1,0 +1,31 @@
+.todo {
+    &__form {
+        display: flex;
+    }
+
+    &__input {
+        width: 100%;
+        padding: 16px;
+        border: none;
+        font-size: 16px;
+        border-radius: 4px;
+    }
+
+    &__add {
+        background: var(--color-one);
+        padding: 8px 24px;
+        font-weight: 700;
+        color: #fff;
+        border: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: background 100ms;
+        font-size: 16px;
+        border-radius: 4px;
+
+        &:focus-visible,
+        &:hover {
+            background: var(--color-one-dark);
+        }
+    }
+}
